@@ -1,0 +1,75 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    padding: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.inputDisplay {
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid hsla(0, 0%, 0%, 0.534);
+    margin: 10px;
+}
+
+.submitButton {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    font-size: 2rem;
+    background-color: hsl(66, 85%, 50%);
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.submitButton:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+    background-color: hsl(66, 85%, 40%);
+}
+
+.weatherDisplay{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(238, 109, 109, 0.836), rgba(135, 135, 240, 0.788));
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.397);
+}
+
+.cityDisplay{
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+
+.iconDisplay{
+    font-size: 5.5rem;
+}
+
+.humidityDisplay, .descriptionDisplay{
+    font-size: 2rem;
+}
+
